@@ -1,5 +1,6 @@
 # learning-scala
-**Starting Scala Basic** <br/><br/>
+**Starting Scala Basic** <br/>
+---
 **Declare variable and types**<br/>
 **Immutable Variable**<br/>
 **Meaning** - values which can not be changed<br/>
@@ -41,7 +42,7 @@
 **Declaration** - def multipleBythree(x:Int):Int = x*3<br/>
 ---
 **Type Hierarchy**<br/>
-![alt text](https://github.com/adarshshkl/learning-scala/images/Type.png "Scala Type Hierarchy")
+![alt text](images/Type.png "Scala Type Hierarchy")
 ---
 **Class**<br/>
 **Meaning** -  A Scala class is defined with keyword **class** along with name and constructor parameters   <br/>
