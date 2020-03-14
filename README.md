@@ -2,6 +2,44 @@
 Starting Scala Basic <br/>
 ---
 
+**Installation**
+---
+
+This tutorial is based on windows system.<br/>
+
+1. Step 1 - Verify Java version
+    ````java
+    C:\Users\Your_PC_username>java -version
+    ````
+    Output
+    ````java
+    java version "1.8.0_111"
+    Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+    Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
+    ````
+    If Java is not installed then install latest Java SDK.<br/>
+    [SDK Download](https://www.oracle.com/technetwork/java/javase/downloads/jdk12-downloads-5295953.html  "Oracle Java Download")
+
+2. Step 2 - Install Scala<br/>
+     [Scala Download](https://www.scala-lang.org/download/   "Scala Download")<br/>
+     Run the downloaded **.msi** file. Follow below screenshots<br/>
+     ![alt text](images/scala_install_1.PNG "Step 1")<br/>
+     Click on the NEXT button<br/>
+     ![alt text](images/scala_install_2.PNG "Step 2")<br/>
+     Check the “I Agree Option” and then click NEXT<br/>
+     ![alt text](images/scala_install_3.PNG "Step 3")<br/>
+     Click on the INSTALL button.<br/>
+     ![alt text](images/scala_install_4.PNG "Step 4")<br/>
+     Click on the FINISH button<br/>
+     ![alt text](images/scala_install_5.PNG "Step 5")<br/>
+3. Step 3 - Test Installation
+    ````java
+   C:\Users\Your_PC_username>java -version
+     ````
+    ![alt text](images/scala_install_6.PNG "Test")<br/>
+       
+
+
 **Declare variable and types**<br/>
 
 **Immutable Variable**<br/>
@@ -55,6 +93,14 @@ Starting Scala Basic <br/>
 **Type Hierarchy**<br/>
 
 ![alt text](images/Type.png "Scala Type Hierarchy")
+
+**What is Nothing in bottom**
+
+It is a subtype of everything of higher types. Commonly used to signal non-termination such as exception thrown, exit program or infinite loop. 
+
+**Type Casting**<br/>
+
+![alt text](images/typecasting.PNG "Scala Type Hierarchy")
 
 ---
 
